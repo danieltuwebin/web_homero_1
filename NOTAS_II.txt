@@ -1,0 +1,68 @@
+.clase_redondear_imagen {
+    border-radius: 10%;
+    border-color: #c12727;
+    border-width: 4px;
+    border-style: solid;
+
+
+.text-justify {
+    text-align: justify;
+    padding: 20px;
+}
+
+
+
+.ps-product .ps-product__category a {
+    display: inline;
+    padding-right: 10px;
+    font-family: "Varela Round", sans-serif;
+    font-size: 30px;
+    color: #4e3939;
+    text-transform: uppercase;
+}
+
+
+.ps-pagination .pagination li.active>a {
+
+Jr. Guillermo Sisley Nro. 309 
+Teléfonos: (061) 442663
+www.info.com
+
+
+https://drive.google.com/open?id=1nFZz7O9StOfxHr3kCYLx76OuO_nccm82&usp=sharing
+
+ps-section ps-section--subscribe pt-20 pb-10
+
+
+#d61e1eba !important
+
+
+.ps-subscribe__form input {
+
+
+    border-color: #d6d824;
+    background-color: #0c0c0c;
+
+
+
+.header--2 .ps-dropdown>a {   color encabezado 
+
+.header--2 .ps-dropdown>a {
+.header--2 .ps-dropdown:last-child {
+
+.header .ps-dropdown {
+
+
+--
+
+.header--2 .ps-dropdown:last-child {color blcna
+
+
+    /*
+    color: #e9ec1e;
+    background-color: #f8f8f8;
+    */
+
+
+    padding: 45px 0px 5px 1px;
+.navigation--sticky .navigation {
