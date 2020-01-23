@@ -6551,6 +6551,8 @@ button.ps-btn--fullwidth {
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         border-radius: 0;
+        /*nuevo*/
+        color: #ff5858;
     }
     .menu>li>a:hover,
     .menu>li>a:active {
