@@ -1,11 +1,11 @@
 /*
-    Project: BAKERY
+    Project: HOMERO
     Version: 1.0
-    Date Created: 03/03/2017
-    Last Updated: 04/23/2017
+    Date Created: 23/01/2020
+    Last Updated: ---------
     Author: Nghia Luong Minh
-    Website: http://minhnghia.info
-    Email: minhnghia7793@gmail.com
+    Website: http://homero.pe
+    Email: homero
 */
 
 
@@ -9274,6 +9274,13 @@ html .bg--parallax {
 
 .clase_redondear_imagen {
     border-radius: 10%;
+    border-color: #c12727;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.clase_redondear_imagen_5 {
+    border-radius: 5%;
     border-color: #c12727;
     border-width: 2px;
     border-style: solid;
