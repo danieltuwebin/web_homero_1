@@ -364,9 +364,13 @@
                 //console.log('testu');
             },
             success: function (valor) {
-                if (valor == 1){
+                if (valor == 1) {
                     alert('Correo enviado correctamente');
-                }else{
+                    $("#Nombre").val('')
+                    $("#Email").val('');
+                    $("#WhatsApp").val('');
+                    $("#Mensaje").val('');
+                } else {
                     alert('Ocurrio un problema al enviar el correo');
                 }
             },
