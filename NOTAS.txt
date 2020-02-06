@@ -10,3 +10,12 @@ https://panaderialamoderna.com/
 -- cargado a gitHub -- web_homero_1
 
 -- nueva actualizacion -- 2
+
+ F:\DESARROLLO WEB\GHX> git config --global user.name "Daniel tbj" 
+PS F:\DESARROLLO WEB\GHX> $ git config --global user.email "email@example.com"
+
+
+
+https://help.github.com/es/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address
+https://help.github.com/es/github/using-git/setting-your-username-in-git
+https://www.mclibre.org/consultar/informatica/lecciones/git-instalacion.html
