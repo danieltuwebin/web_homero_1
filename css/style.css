@@ -5330,8 +5330,10 @@ button.ps-btn--fullwidth {
 .ps-section__top {
     display: block;
     margin-bottom: 15px;
-    font-family: "Pacifico", cursive;
-    font-size: 24px;
+    /*font-family: "Pacifico", cursive;*/
+    font-family: "Apple Chancery", cursive;
+    /*font-size: 24px;*/
+    font-size: 25px;
     color: #ee7560;
 }
 
@@ -5462,7 +5464,7 @@ button.ps-btn--fullwidth {
 }
 
 .ps-section--subscribe {
-    background-color: #d61e1eba
+    background-color: #E15B5B
 }
 
 .ps-section--partner {
@@ -6260,7 +6262,7 @@ button.ps-btn--fullwidth {
     position: relative;
     /*padding: 20px 0;*/
     padding: 5px 0;
-    background-color: #d61e1eba;
+    background-color: #E15B5B;
 }
 
 .navigation::after {
@@ -8143,7 +8145,7 @@ button.ps-btn--fullwidth {
         padding: 10px 0;
         min-height: 60px;
         background-color: #fff;
-        /*background-color: #d61e1eba;*/
+        /*background-color: #E15B5B;*/
     }
     .header .ps-cart {
         margin-top: 10px;
@@ -8377,7 +8379,8 @@ button.ps-btn--fullwidth {
 
 .navigation--sticky .navigation {
     /*background-color: #000;*/
-    background-color: #d61e1eba !important;
+    /*background-color: #d61e1eba !important;*/
+    background-color: #E15B5B !important;
     padding: 45px 0px 5px 1px;
 }
 
@@ -9251,11 +9254,13 @@ html .bg--parallax {
 }
 
 .clase_color_icono {
-    color: #d61e1eba !important;
+    /*color: #d61e1eba !important;*/
+    color: #E15B5B !important;
 }
 
 .clase_img_redondo {
-    border-radius: 10%;
+    /*border-radius: 10%;*/
+      border-radius: 3%;
 }
 
 .clase_color_amarillo {
@@ -9301,6 +9306,144 @@ html .bg--parallax {
     font-size: 10px !important;
 }
 
+.clase_contenedor_slider{
+    position: absolute !important;
+    display: block !important;
+    visibility: visible !important;
+    left: 480px !important;
+    top: 75px !important;
+    font-weight:bold;
+    /*background-color: #e9ec1e;*/
+    background-color: #E15B5B;
+    padding: 2px 5px;
+    border: #eee 2px solid;
+    border-radius: 20px;
+    COLOR: #e9ec1e;
+}
+
+@media (max-width: 479px) {
+    .clase_contenedor_slider{
+        left: 10px !important;
+        top: 5px !important;        
+        background-color: none;
+        padding: 2px 5px;
+        border: #eee 0px solid;
+        border-radius: 20px;
+        COLOR: none;     
+    }
+}
+
+
+
+.posi_1{
+    /*left: 480px !important;*/
+    left: 290px !important;
+    top: 85px !important;
+    position: absolute !important;
+    -webkit-text-stroke: 2px #d81111;
+    color: #eee; 
+   font-size: 50px !important;
+   font-family: sans-serif;
+   line-height: 150%;
+   letter-spacing: 3px;
+   font-weight:600;
+}
+
+.posi_2{
+    /*left: 480px !important;*/
+    left: 450px !important;
+    top: 85px !important;
+    position: absolute !important;
+    -webkit-text-stroke: 2px #d81111;
+    color: #eee; 
+   font-size: 50px !important;
+   font-family: sans-serif;
+   line-height: 150%;
+   letter-spacing: 3px;
+   font-weight:600;
+}
+
+.posi_3{
+    /*left: 480px !important;*/
+    left: 200px !important;
+    top: 85px !important;
+    position: absolute !important;
+    -webkit-text-stroke: 2px #d81111;
+    color: #eee; 
+   font-size: 50px !important;
+   font-family: sans-serif;
+   line-height: 150%;
+   letter-spacing: 3px;
+   font-weight:600;
+}
+
+.posi_i{
+    left: -450px !important;
+    top: 185px !important;  
+    position: absolute !important;
+}
+
+
+.label_header{
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .clase_contenedor_slider{
+        left: 240px !important;
+        top: 50px !important;
+        background-color: none;
+        padding: 2px 5px;
+        border: #eee 0px solid;
+        border-radius: 20px;
+        COLOR: none;               
+    }
+
+.posi_1{
+    /*left: 480px !important;*/
+    left: 90px !important;
+    font-size: 30px !important;
+}
+
+.posi_2{
+    /*left: 480px !important;*/
+    left: 200px !important;
+   font-size: 30px !important;
+}
+
+.posi_3{
+    /*left: 480px !important;*/
+    left: 20px !important;
+   font-size: 30px !important;
+}
+
+.posi_i{
+    left: -300px !important;
+    top: 15px !important;  
+    position: absolute !important;
+}
+
+
+
+
+}
+
+/*
+left: 420px !important;
+top: 75px !important;
+position: absolute !important;
+width:auto;
+height:200px;
+ --line-height:300px;
+border:1px solid;
+text-align:center;
+vertical-align: top;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+text-align: left;
+*/
 
 /* .clase_color_texto_y_fondo:hover {
     background-color: #ee7560 !important;
