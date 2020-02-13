@@ -66,3 +66,5 @@ ps-section ps-section--subscribe pt-20 pb-10
 
     padding: 45px 0px 5px 1px;
 .navigation--sticky .navigation {
+
+    font size
