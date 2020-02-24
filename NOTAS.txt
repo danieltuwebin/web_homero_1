@@ -19,3 +19,22 @@ PS F:\DESARROLLO WEB\GHX> $ git config --global user.email "email@example.com"
 https://help.github.com/es/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address
 https://help.github.com/es/github/using-git/setting-your-username-in-git
 https://www.mclibre.org/consultar/informatica/lecciones/git-instalacion.html
+
+
+--------------
+bd
+
+home
+)[iTp+gP_}x9
+
+
+CREATE TABLE tblProductoPrecio(
+	Id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    Nombre VARCHAR(200) NOT NULL,
+    Descripcion VARCHAR(1000) NOT NULL,
+    Tamanio VARCHAR(50) NOT NULL,
+    Modelo VARCHAR(200) NOT NULL,
+    Cantidad FLOAT NOT NULL,
+    Precio VARCHAR(100) NOT NULL,
+    Tipo INT
+)
