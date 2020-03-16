@@ -9321,6 +9321,21 @@ html .bg--parallax {
     COLOR: #e9ec1e;
 }
 
+.clase_Color_Tamanio {
+    font-size: 50px !important;
+    color: #ff5858 !important;
+    /*border-width: 1px;
+    border-style: solid;
+    border-color: #e9ec1e;
+    */
+    /*
+    font-weight: 600;
+    -webkit-text-stroke: 1px #e9ec1e;
+    */
+    font-family: sans-serif;
+    text-shadow: 2px 0 0 #e9ec1e, -2px 0 0 #e9ec1e, 0 2px 0 #e9ec1e, 0 -2px 0 #e9ec1e, 1px 1px #e9ec1e, -1px -1px 0 #e9ec1e, 1px -1px 0 #e9ec1e, -1px 1px 0 #e9ec1e;
+}
+
 @media (max-width: 479px) {
     .clase_contenedor_slider {
         left: 10px !important;
