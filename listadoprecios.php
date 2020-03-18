@@ -353,7 +353,7 @@
                         <div class="ps-widget ps-widget--footer ps-widget--worktime">
                             <div class="ps-widget__header">
                                 <h3 class="ps-widget__title">UBÍCANOS EN NUESTRAS SEDES O COMUNÍCATE A NUESTROS TELÉFONOS</h3>
-                                <h5 class="clase_color_icono"><i class="fa fa-phone"></i> 945329328 / 949647666</h5>
+                                <h5 class="clase_color_icono"><i class="fa fa-phone"></i> <a href="tel:945329328">945329328</a>/<a href="tel:949647666">949647666</a></h5>
                             </div>
                             <div class="ps-widget__content">
                                 <i class="fa fa-map-marker"></i> <strong>Sede Principal :</strong> Av. Salvador Allende Nro. 1020 Tel 061-442663
@@ -447,7 +447,7 @@
 <script type="text/javascript">
     $(function() {
         $('#CorreoEmpresa').html('tortas.d.rossi@hotmail.com');
-        $('#TelefonoEmpresa').html('945329328 / 949647666');
+        $('#TelefonoEmpresa').html('<a href="tel:945329328">945329328</a>/<a href="tel:949647666">949647666</a>');
         $('#TituloWebEmpresa').html('Pastelería Drossi | Tortas-Postres-Bocaditos-Buffets');
         $('#Contactanos').html('Envianos un correo');
         listar;

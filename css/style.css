@@ -9400,6 +9400,10 @@ html .bg--parallax {
     font-size: 20px;
 }
 
+.tamanio_35 {
+    font-size: 35px !important;
+}
+
 @media (max-width: 768px) {
     .clase_contenedor_slider {
         left: 240px !important;
