@@ -1,0 +1,188 @@
+nro.;nombre;descrip;tamanio;modelo; cantidad ; precio ; tipo 
+1;T. CON FRUTAS, NUMEROS Y LETRAS;TEMÁTICAS                                                   ; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+<i class=""fa fa-heart fa-2x"" aria-hidden=""true""></i>
+</div>"; 1.00 ; 70.00 ;1
+2;TORTA  CHANTILLY;KEKE DE VAINILLA, CON RELLENO DE MANJAR BLANCO, BAÑADO EN CREMA DE CHANTILLY.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 15.00 ;1
+3;TORTA  CHANTILLY;KEKE DE VAINILLA, CON RELLENO DE MANJAR BLANCO, BAÑADO EN CREMA DE CHANTILLY.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 20.00 ;1
+4;TORTA  CHANTILLY;KEKE DE VAINILLA, CON RELLENO DE MANJAR BLANCO, BAÑADO EN CREMA DE CHANTILLY.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 30.00 ;1
+5;TORTA  CHANTILLY;KEKE DE VAINILLA, CON RELLENO DE MANJAR BLANCO, BAÑADO EN CREMA DE CHANTILLY.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 35.00 ;1
+6;TORTA  CHANTILLY;KEKE DE VAINILLA, CON RELLENO DE MANJAR BLANCO, BAÑADO EN CREMA DE CHANTILLY.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 45.00 ;1
+7;TORTA  CHANTILLY;KEKE DE VAINILLA, CON RELLENO DE MANJAR BLANCO, BAÑADO EN CREMA DE CHANTILLY.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 70.00 ;1
+8;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 20.00 ;1
+9;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 25.00 ;1
+10;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 35.00 ;1
+11;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 40.00 ;1
+12;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 45.00 ;1
+13;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 60.00 ;1
+14;TRES LECHES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES, RELLENO DE FRESA, BAÑADO EN CREMA DE CHANTILLY.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 90.00 ;1
+15;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 23.00 ;1
+16;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 28.00 ;1
+17;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 40.00 ;1
+18;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 45.00 ;1
+19;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 50.00 ;1
+20;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 65.00 ;1
+21;TRES LECHES - SABORES;BIZCOCHUELO DE VAINILLA BLANCO, HUMEDO CON JARABE DE TRES LECHES. <B>PISCO SOUR, WISKY, CERVEZA, MENTA,FRESA, CHOCOLATE</B>.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 90.00 ;1
+22;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 15.00 ;1
+23;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 18.00 ;1
+24;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 26.00 ;1
+25;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 30.00 ;1
+26;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 40.00 ;1
+27;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 60.00 ;1
+28;TORTA MERENGUE;KEKE DE VAINILLA O CHOCOLATE, RELLENO DE MANJAR BLANCO BAÑADO CON CREMA DE MERENGUE.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; -   ;1
+29;SELVA NEGRA Y MOCA;"<B>SELVA NEGRA:</B> KEKE DE CHOCOLATE, RELLENO DE FRESA DECORADO CON CREMA CHANTILLY.
+<B>MOCA:</B> KEKE DE CHOCOLATE RELLENO DE MOCA, CAFÉ, RON Y CARAMELINA.   ";1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 15.00 ;1
+30;SELVA NEGRA Y MOCA;"<B>SELVA NEGRA:</B> KEKE DE CHOCOLATE, RELLENO DE FRESA DECORADO CON CREMA CHANTILLY.
+<B>MOCA:</B> KEKE DE CHOCOLATE RELLENO DE MOCA, CAFÉ, RON Y CARAMELINA.   ";1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 20.00 ;1
+31;SELVA NEGRA Y MOCA;"<B>SELVA NEGRA:</B> KEKE DE CHOCOLATE, RELLENO DE FRESA DECORADO CON CREMA CHANTILLY.
+<B>MOCA:</B> KEKE DE CHOCOLATE RELLENO DE MOCA, CAFÉ, RON Y CARAMELINA.   "; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 26.00 ;1
+32;SELVA NEGRA Y MOCA;"<B>SELVA NEGRA:</B> KEKE DE CHOCOLATE, RELLENO DE FRESA DECORADO CON CREMA CHANTILLY.
+<B>MOCA:</B> KEKE DE CHOCOLATE RELLENO DE MOCA, CAFÉ, RON Y CARAMELINA.   ";1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 35.00 ;1
+33;SELVA NEGRA Y MOCA;"<B>SELVA NEGRA:</B> KEKE DE CHOCOLATE, RELLENO DE FRESA DECORADO CON CREMA CHANTILLY.
+<B>MOCA:</B> KEKE DE CHOCOLATE RELLENO DE MOCA, CAFÉ, RON Y CARAMELINA.   "; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 45.00 ;1
+34;SELVA NEGRA Y MOCA;"<B>SELVA NEGRA:</B> KEKE DE CHOCOLATE, RELLENO DE FRESA DECORADO CON CREMA CHANTILLY.
+<B>MOCA:</B> KEKE DE CHOCOLATE RELLENO DE MOCA, CAFÉ, RON Y CARAMELINA.   ";2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 70.00 ;1
+35;TORTAS VARIOS SABORES;TORTA  LÚCUMA, FRESA , MARACUYÁ Y CASINO.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 18.00 ;1
+36;TORTAS VARIOS SABORES;TORTA  LÚCUMA, FRESA , MARACUYÁ Y CASINO.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 25.00 ;1
+37;TORTAS VARIOS SABORES;TORTA  LÚCUMA, FRESA , MARACUYÁ Y CASINO.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 30.00 ;1
+38;TORTAS VARIOS SABORES;TORTA  LÚCUMA, FRESA , MARACUYÁ Y CASINO.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 40.00 ;1
+39;TORTAS VARIOS SABORES;TORTA  LÚCUMA, FRESA , MARACUYÁ Y CASINO.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 50.00 ;1
+40;TORTAS VARIOS SABORES;TORTA  LÚCUMA, FRESA , MARACUYÁ Y CASINO.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 70.00 ;1
+41;TORTAS VARIOS SABORES;TORTA DE CHOCOLATE, CRAQUELADO Y SUBLIME.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 18.00 ;1
+42;TORTAS VARIOS SABORES;TORTA DE CHOCOLATE, CRAQUELADO Y SUBLIME.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 25.00 ;1
+43;TORTAS VARIOS SABORES;TORTA DE CHOCOLATE, CRAQUELADO Y SUBLIME.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 30.00 ;1
+44;TORTAS VARIOS SABORES;TORTA DE CHOCOLATE, CRAQUELADO Y SUBLIME.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 45.00 ;1
+45;TORTAS VARIOS SABORES;TORTA DE CHOCOLATE, CRAQUELADO Y SUBLIME.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 50.00 ;1
+46;TORTAS VARIOS SABORES;TORTA DE CHOCOLATE, CRAQUELADO Y SUBLIME.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 90.00 ;1
+47;TORTA CANDY;KEKE DE CHOCOLATE, RELLENO Y BAÑADO DE FOSH, DECORADO CON GALLETAS DOÑA PEPA, GOMITAS Y OTRAS GOLOSINAS.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 25.00 ;1
+48;TORTA CANDY;KEKE DE CHOCOLATE, RELLENO Y BAÑADO DE FOSH, DECORADO CON GALLETAS DOÑA PEPA, GOMITAS Y OTRAS GOLOSINAS.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 30.00 ;1
+49;TORTA CANDY;KEKE DE CHOCOLATE, RELLENO Y BAÑADO DE FOSH, DECORADO CON GALLETAS DOÑA PEPA, GOMITAS Y OTRAS GOLOSINAS.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 45.00 ;1
+50;TORTA CANDY;KEKE DE CHOCOLATE, RELLENO Y BAÑADO DE FOSH, DECORADO CON GALLETAS DOÑA PEPA, GOMITAS Y OTRAS GOLOSINAS.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 60.00 ;1
+51;TORTA CANDY;KEKE DE CHOCOLATE, RELLENO Y BAÑADO DE FOSH, DECORADO CON GALLETAS DOÑA PEPA, GOMITAS Y OTRAS GOLOSINAS.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 90.00 ;1
+52;TORTA CANDY;KEKE DE CHOCOLATE, RELLENO Y BAÑADO DE FOSH, DECORADO CON GALLETAS DOÑA PEPA, GOMITAS Y OTRAS GOLOSINAS.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 120.00 ;1
+53;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 15.00 ;1
+54;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.;1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 20.00 ;1
+55;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.; 3/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+<i class=""fa fa-heart fa-2x"" aria-hidden=""true""></i>
+</div>"; 1.00 ; 30.00 ;1
+56;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.;1 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+<i class=""fa fa-heart fa-2x"" aria-hidden=""true""></i>
+</div>"; 1.00 ; 35.00 ;1
+57;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.; 1 1/2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+<i class=""fa fa-heart fa-2x"" aria-hidden=""true""></i>
+</div>"; 1.00 ; 45.00 ;1
+58;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.;2 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-square fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 60.00 ;1
+59;TORTA HELADA;BASE DE GELATINA DE FRESA, DOS CAPAS DE KEKE DE CHOCOLATE, BAÑADO CON MUS DE PIÑA, NARANJA Y FRESA.;1/4 KG.;"<div class=""form-group-inline"">
+<i class=""fa fa-circle fa-2x"" aria-hidden=""true""></i>&nbsp;&nbsp;
+</div>"; 1.00 ; 6.00 ;1

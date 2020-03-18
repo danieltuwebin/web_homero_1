@@ -86,10 +86,18 @@
                                 </a>
                                 <div class="dropdown-menu clase_borde_invisible" aria-labelledby="navbarDropdownMenuLink">
                                     <ul class="clase_1">
-                                        <li class=""><a class="clase_1_a" href="tortastematicas.html">Tortas Tematicas</a></li>
-                                        <li class=""><a class="clase_1_a" href="tortasclasicas.html">Tortas Clasicas</a></li>
-                                        <li class=""><a class="clase_1_a" href="buffetspostres.html">Buffets-Postres</a></li>
-                                    </ul>
+                                    <li class=""><a class="clase_1_a" href="tortastematicas.html">Tortas Tematicas</a>
+                                    </li>
+                                    <li class=""><a class="clase_1_a" href="tortasclasicas.html">Tortas Clasícas</a>
+                                    </li>
+                                    <li class=""><a class="clase_1_a" href="buffetspostres.html">Buffets-Postres</a>
+                                    </li>
+                                    <li class=""><a class="clase_1_a" href="preciotortas.html">Precio Tortas</a>
+                                    </li>
+                                    <li class=""><a class="clase_1_a" href="preciopostres.html">Precio Postres</a>
+                                    </li>
+                                    <li class=""><a class="clase_1_a" href="preciobuffestbocatidos.html">Precio Buffets & Bocaditos</a>
+                                    </li>                                    </ul>
                                 </div>
                             </li>
                             <li class=""><a href="nuestros-clientes.html">Nuestros Clientes</a></li>

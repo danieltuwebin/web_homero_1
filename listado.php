@@ -1,7 +1,7 @@
 <?php
 //echo 'test';
 
-
+$Condicion = $_GET["Condicion"];
 
 //Configuracion de la conexion a base de datos
 
@@ -19,8 +19,8 @@ while($row = mysqli_fetch_array($sql)){
 }
 */
 
-$con=mysqli_connect("localhost","homero_home",")[iTp+gP_}x9","homero_producto");
-mysqli_set_charset($con,"utf8");
+$con = mysqli_connect("localhost", "homero_home", ")[iTp+gP_}x9", "homero_producto");
+mysqli_set_charset($con, "utf8");
 
 if (mysqli_connect_errno()) {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -51,26 +51,44 @@ mysqli_select_db($con, "homero_producto");
 } */
 
 
-if ($result=mysqli_query($con,"CALL ListarProductos()"))
-  {
+if ($result = mysqli_query($con, "CALL ListarProductos('$Condicion')")) {
   // Fetch one and one row
-$Cont="";
+  $Cont = "";
 
-  while ($row=mysqli_fetch_row($result))
-    {
-        $Cont = $Cont.'<tr><td class="text-truncate">'.$row[0].'</td>
-                           <td class="text-truncate">'.$row[1].'</td>
-                           <td class="text-truncate">'.$row[2].'</td>
-                           <td class="text-truncate">'.$row[3].'</td>
-                           <td class="text-truncate">'.$row[4].'</td>
-                           <td class="text-truncate">'.$row[5].'</td>
-                           <td class="text-truncate">'.$row[6].'</td>
-                           <td class="text-truncate">'.$row[7].'</td>                                                                                                                                                                                       
-                           </tr>';
-        //$Cont = '<td class="text-truncate">'.$row[0].'</td>'.$row[1],$row[2].$row[3],$row[4].$row[5],$row[6].$row[7];
+  if ($Condicion == 4) {
+    while ($row = mysqli_fetch_row($result)) {
+        $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+        <td class="text-truncate">' . $row[2] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[4] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+        </tr>';
+      //$Cont = '<td class="text-truncate">'.$row[0].'</td>'.$row[1],$row[2].$row[3],$row[4].$row[5],$row[6].$row[7];
     }
+  } else if ($Condicion == 5) {
+    while ($row = mysqli_fetch_row($result)) {
+      $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+      <td class="text-truncate">' . $row[2] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[4] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+      </tr>';
+    }
+  } else {
+      while ($row = mysqli_fetch_row($result)) {
+        $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+        <td class="text-truncate">' . $row[2] . '</td>
+        <td class="text-truncate">' . $row[3] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[4] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[5] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
+        <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+        </tr>';        
+      }
+  }
 
-    echo $Cont;
+
+  echo $Cont;
   // Free result set
   mysqli_free_result($result);
 }
@@ -78,9 +96,3 @@ $Cont="";
 
 // Close connection
 mysqli_close($con);
-
-
-
-
-
-?>
