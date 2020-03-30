@@ -6,7 +6,7 @@ $Whatsapp=$_POST['WhatsApp'];
 $Mensaje=$_POST['Mensaje'];
 
 
-$to = "daniel@tuwebin.com";
+$to = "informes@tortasdrossi.com.pe";
 $asunto = "Consulta desde la Web";
 //$message = "Este es mi primer envío de email con PHP";
 //$headers = "From: mi@cuentadeemail.com" . "\r\n" . "CC: destinatarioencopia@email.com";
@@ -15,7 +15,7 @@ $asunto = "Consulta desde la Web";
 $headers = "MIME-Version: 1.0\r\n"; 
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
 //dirección del remitente 
-$headers .= "From: Homero Perez <homero@ti.com>\r\n"; 
+$headers .= "From: Contacto Web <TortasDrossi>\r\n"; 
 
 $Mensaje ="
 <html>

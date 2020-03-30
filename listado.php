@@ -19,7 +19,7 @@ while($row = mysqli_fetch_array($sql)){
 }
 */
 
-$con = mysqli_connect("localhost", "homero_home", ")[iTp+gP_}x9", "homero_producto");
+$con = mysqli_connect("localhost", "tortasdrossicom_homero", "&O3hu4@c3.Ti", "tortasdrossicom_producto");
 mysqli_set_charset($con, "utf8");
 
 if (mysqli_connect_errno()) {
@@ -41,7 +41,7 @@ if ($result = mysqli_query($con, "SELECT DATABASE()")) {
 */
 
 // Change db to "test" db
-mysqli_select_db($con, "homero_producto");
+mysqli_select_db($con, "tortasdrossicom_producto");
 
 // Return name of current default database
 /* if ($result = mysqli_query($con, "CALL ListarProductos()")) {

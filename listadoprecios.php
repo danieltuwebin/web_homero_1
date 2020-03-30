@@ -316,9 +316,9 @@
                         </div>
                         <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
                             <!-- <p>Denos su correo y le enviaremos ofertas y eventos..</p> -->
-                            <form class="ps-subscribe__form" method="post" action="_action">
-                                <input class="form-control" type="text" placeholder="Ingrese su email">
-                                <button class="ps-btn ps-btn--sm">Registrarse</button>
+                            <form class="ps-subscribe__form" id="main-subscribe" name="main-subscribe" method="post">
+                                <input id="Correo" name="Correo" class="form-control" type="text" placeholder="Ingrese su email">
+                                <button name="Submit" type="submit" id="Submit" class="ps-btn ps-btn--sm">Registrarse</button>
                             </form>
                         </div>
                     </div>
@@ -447,7 +447,7 @@
 <!-- BEGIN. EVENTOS SCRIPT-->
 <script type="text/javascript">
     $(function() {
-        $('#CorreoEmpresa').html('tortas.d.rossi@hotmail.com');
+        $('#CorreoEmpresa').html('informes@tortasdrossi.com.pe');
         $('#TelefonoEmpresa').html('<a href="tel:945329328">945329328</a>/<a href="tel:949647666">949647666</a>');
         $('#TituloWebEmpresa').html('Pastelería Drossi | Tortas-Postres-Bocaditos-Buffets');
         $('#Contactanos').html('Envianos un correo');
