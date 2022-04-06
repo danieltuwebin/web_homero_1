@@ -55,32 +55,67 @@ if ($result = mysqli_query($con, "CALL ListarProductos('$Condicion')")) {
   // Fetch one and one row
   $Cont = "";
 
-  if ($Condicion == 4) {
+  if ($Condicion == 2) {
     while ($row = mysqli_fetch_row($result)) {
         $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
         <td class="text-truncate">' . $row[2] . '</td>
-        <td class="text-truncate" style="text-align: center">' . $row[4] . '</td>
+        <td class="text-truncate" style="text-align: left">' . $row[3] . '</td>
         <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
         <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
         </tr>';
       //$Cont = '<td class="text-truncate">'.$row[0].'</td>'.$row[1],$row[2].$row[3],$row[4].$row[5],$row[6].$row[7];
     }
-  } else if ($Condicion == 5) {
+  } else if ($Condicion == 3) {
     while ($row = mysqli_fetch_row($result)) {
       $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
       <td class="text-truncate">' . $row[2] . '</td>
-      <td class="text-truncate" style="text-align: center">' . $row[4] . '</td>
+      <td class="text-truncate" style="text-align: left">' . $row[3] . '</td>
       <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
       <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
       </tr>';
     }
+  } else if ($Condicion == 4) {
+    while ($row = mysqli_fetch_row($result)) {
+      $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+      <td class="text-truncate">' . $row[2] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[5] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+      </tr>';
+    }    
+  } else if ($Condicion == 5) {
+    while ($row = mysqli_fetch_row($result)) {
+      $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+      <td class="text-truncate">' . $row[2] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[3] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[5] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+      </tr>';
+    }
+  } else if ($Condicion == 6) {
+    while ($row = mysqli_fetch_row($result)) {
+      $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+      <td class="text-truncate">' . $row[2] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[3] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[5] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+      </tr>';
+    }
+  } else if ($Condicion == 7) {
+    while ($row = mysqli_fetch_row($result)) {
+      $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
+      <td class="text-truncate">' . $row[2] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[3] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[5] . '</td>
+      <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
+      </tr>';
+    }         
   } else {
       while ($row = mysqli_fetch_row($result)) {
         $Cont = $Cont . '<tr><td class="text-truncate" style="text-align: center">' . $row[0] . '</td>
         <td class="text-truncate">' . $row[2] . '</td>
         <td class="text-truncate">' . $row[3] . '</td>
         <td class="text-truncate" style="text-align: center">' . $row[4] . '</td>
-        <td class="text-truncate" style="text-align: center">' . $row[5] . '</td>
         <td class="text-truncate" style="text-align: center">' . $row[6] . '</td>
         <td class="text-truncate" style="text-align: center">' . $row[7] . '</td>                                                                                                                                                                                       
         </tr>';        

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE 7]><html class="ie ie7"><![endif]-->
 <!--[if IE 8]><html class="ie ie8"><![endif]-->
 <!--[if IE 9]><html class="ie ie9"><![endif]-->
@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <link href="apple-touch-icon.png" rel="apple-touch-icon">
     <link href="favicon.png" rel="icon">
-    <meta name="keywords" content="pasteleria, panaderia, bocaditos, postres especiales ">
+    <meta name="keywords" content="pasteleria, panaderia, San Martin, bocaditos, postres especiales ">
     <meta name="Description" content="Pastelería Drossi, Especialistas en Tortas, bocaditos y Postres - contactanos 945329328 / 949647666">
     <meta name="Robots" content="INDEX,FOLLOW">
     <meta name="Title" content="Tortas de Rossi">
@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
     <!-- Custom-->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- <link rel="stylesheet" href="css\bootstrap-4.0.0-dist\css\bootstrap.css"> -->
+
     <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!--WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
@@ -48,6 +51,7 @@
 
 <body class="page-init">
     <div class="header--sidebar"></div>
+    <!-- <header class="header" data-responsive="1199"> -->
     <header class="header header--2" data-responsive="1199">
         <div class="header__top">
             <div class="container">
@@ -74,9 +78,9 @@
                     <div class="navigation__right">
                         <ul class="menu menu--right">
                             <li class=""><a href="index.html">Inicio</a></li>
-                            <li class="current"><a href="nosotros.html">Nosotros</a></li>
+                            <li class=""><a href="nosotros.html">Nosotros</a></li>
                             <!--<li class="menu-item-has-children"><a href="nosotros.html">Nosotros</a></li>-->
-                            <li class="menu-item-has-children">
+                            <li class="current menu-item-has-children">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     productos
                                 </a>
@@ -116,126 +120,148 @@
     <div class="page-wrap">
         <div class="ps-section--hero"><img src="images/hero/03.jpg" alt="">
             <div class="ps-section__content text-center">
-                <h3 class="ps-section__title">NOSOTROS SOMOS</h3>
+                <h3 class="ps-section__title">NUESTROS PRODUCTOS</h3>
                 <div class="ps-breadcrumb">
                     <ol class="breadcrumb">
                         <li><a href="index.html">Inicio</a></li>
-                        <li class="active">Conocenos</li>
+                        <li class="active">PRODUCTOS / LISTADO DE PRECIOS ACCESORIOS</li>
                     </ol>
                 </div>
             </div>
         </div>
 
 
-        <div class="ps-section ps-section--about pt-25 pb-40">
+        <div class="">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="ps-shop-grid pt-15">
 
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                        <div class="ps-section__header text-center">
-                            <h1 class="ps-section__title"><strong>Historia</strong></h1>
-                        </div>
-                        <div class="ps-section__content text-center">
-                            <div class="card">
-                                <img src="imagenes/nosotros/nosotros1.jpg" class="card-img-top clase_redondear_imagen" alt="...">
-                                <br>
-                                <div class="card-body text-justify clase_padding">
-                                    <p>Somos TORTAS D'ROSSI, Pastelería y buffet líder en la región, fundada en el año 2000 en la capital del Perú y llegando a la ciudad de Pucallpa en el año 2012. En Tortas D'Rossi somos apasionados en el arte del pastel
-                                        y queremos ser parte de tus momentos felices, decoramos nuestros productos con insumos de calidad para satisfacer a nuestros clientes y "nuestra prioridad son ustedes..."
-                                    </p>
+                            <!--                             <div class="ps-shop-features">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 "><img class="mb-30 clase_redondear_imagen_5" src="imagenes/prouctos1.png" alt="">
+                                    </div>
+                                </div>
+                            </div> -->
+
+
+                            <div class="content-body">
+                                <!-- Bordered striped start -->
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="card">
+                                            <!--                                             <div class="card-header">
+                                                <h4 class="card-title">Atención</h4>
+                                                <a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+                                                <div class="heading-elements">
+                                                    <ul class="list-inline mb-0">
+                                                        <li><a data-action="collapse"><i class="icon-minus4"></i></a></li>
+                                                        <li onclick="Actualizar()"><a data-action="reload"><i class="icon-reload"></i></a></li>
+                                                        <li><a data-action="expand"><i class="icon-expand2"></i></a></li>
+                                                        <li><a data-action="close"><i class="icon-cross2"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div> -->
+                                            <br>
+                                            <div class="card-block">
+                                                <div class="card-body collapse in">
+                                                    <div class="table-responsive">
+                                                        <table id="TblAtencion" class="table table-striped table-bordered" style="width:100%">
+                                                            <thead>
+                                                                <tr class="danger">
+                                                                    <td colspan="7" align="center"><b>LISTA DE PRECIOS
+                                                                            DE VELAS</b></td>
+                                                                </tr>
+                                                            </thead>
+                                                            <thead>
+                                                                <tr class="danger">
+                                                                    <th width="10%" style="text-align: center">Nro.</th>
+                                                                    <th width="30%" style="text-align: center">Nombre</th>
+                                                                    <th width="40%" style="text-align: center">Descripción</th>
+                                                                    <!--      <th width="5%">Tamaño</th> -->
+                                                                    <th width="10%" style="text-align: center">Presentación</th>
+                                                                    <!--<th width="10%" style="text-align: center">Cantidad</th>-->
+                                                                    <th width="10%" style="text-align: center">Precio S/.</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody id="tablaListado1">
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <div class="card-block">
+                                                <div class="card-body collapse in">
+                                                    <div class="table-responsive">
+                                                        <table id="TblAtencion" class="table table-striped table-bordered" style="width:100%">
+                                                            <thead>
+                                                                <tr class="danger">
+                                                                    <td colspan="7" align="center"><b>LISTA DE PRECIOS
+                                                                            DE TAPER</b></td>
+                                                                </tr>
+                                                            </thead>
+                                                            <thead>
+                                                                <tr class="danger">
+                                                                    <th width="10%" style="text-align: center">Nro.</th>
+                                                                    <th width="30%" style="text-align: center">Nombre</th>
+                                                                    <th width="40%" style="text-align: center">Descripción</th>
+                                                                    <!--      <th width="5%">Tamaño</th> -->
+                                                                    <th width="10%" style="text-align: center">Presentación</th>
+                                                                    <!--<th width="10%" style="text-align: center">Cantidad</th>-->
+                                                                    <th width="10%" style="text-align: center">Precio S/.</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody id="tablaListado2">
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <!--
+                                            <div class="card-block">
+                                                <div class="card-body collapse in">
+                                                    <div class="table-responsive">
+                                                        <table id="TblAtencion"
+                                                            class="table table-striped table-bordered"
+                                                            style="width:100%">
+                                                            <thead>
+                                                                <tr class="danger">
+                                                                    <td colspan="5" align="center"><b>LISTA DE PRECIOS
+                                                                            DE PASTELES & POSTRES POR PORCIONES</b></td>
+                                                                </tr>
+                                                            </thead>
+                                                            <thead>
+                                                                <tr class="danger">
+                                                                    <th width="5%" style="text-align: center">Nro.</th>
+                                                                     <th>Tipo</th> 
+                                                                    <th width="65%" style="text-align: center">Nombre
+                                                                    </th>
+                                                                     <th width="0%">Descripción</th>
+                                                                    <th width="15%" style="text-align: center">
+                                                                        Presentación</th>
+                                                                    <th width="0%">Modelo</th>
+                                                                    <th width="7%" style="text-align: center">Cantidad
+                                                                    </th>
+                                                                    <th width="8%" style="text-align: center">Precio S/.
+                                                                    </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody id="tablaListado3">
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            -->
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                        <div class="ps-section__header text-center">
-                            <h1 class="ps-section__title"><strong>Colaboradores</strong></h1>
-                        </div>
-                        <div class="ps-section__content text-center">
-                            <div class="card">
-                                <img src="imagenes/nosotros/nosotros2.jpg" class="card-img-top clase_redondear_imagen" alt="...">
-                                <br>
-                                <div class="card-body text-justify clase_padding">
-                                    <p>Nuestros colaboradores de TORTAS D'ROSSI, líder en la región, están capacitados de acuerdo a las actividades que desarrollan para preelaborar, preparar, presentar y conservar toda clase de productos de pastelería y
-                                        buffet aplicando técnicas profesionales, respetando las normas, estándares de calidad, prácticas de seguridad e higiene en la manipulación alimentaria, consiguiendo así la calidad y satisfacción de nuestros clientes:
-                                        "nuestra prioridad son ustedes..."
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ">
-                        <div class="ps-section__header text-center">
-                            <h1 class="ps-section__title"><strong>Transporte</strong>
-                            </h1>
-                        </div>
-                        <div class="ps-section__content text-center">
-                            <div class="card">
-                                <img src="imagenes/nosotros/nosotros3.jpg" class="card-img-top clase_redondear_imagen" alt="...">
-                                <br>
-                                <div class="card-body text-justify clase_padding">
-                                    <p>Nuestras unidades de TORTAS D'ROSSI, líder en la región, están diseñadas para transportar todo tipo de productos de pastelería y tortas, respetando las normas, estándares de calidad y prácticas de seguridad e higiene
-                                        en la manipulación alimentaria de parte del personal que lo transporta, contamos con unidades modernas y conductores calificados.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="ps-section ps-section--about pt-10 pb-40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 ">
-                        <div class="ps-section__header text-center">
-                            <!--  <div class="ps-section__top">Pasteleria Fina</div> -->
-                            <h1 class="ps-section__title"><strong>Objetivos</strong></h1>
-                        </div>
-                        <div class="ps-section__content text-left">
-                            <p>
-                                <i class="fa fa-check label_header"></i>&nbsp;&nbsp;Mantener el liderazgo en la región.
-                                <br>
-                                <i class="fa fa-check label_header"></i>&nbsp;&nbsp;Producir y comercializar productos de pastelería de calidad (Tortas y buffet).
-                            </p>
-                        </div>
-
-                        <div class="ps-section__header text-left">
-                            <br>
-                            <!--  <div class="ps-section__top">Pasteleria Fina</div> -->
-                            <h1 class="ps-section__title"><strong>Misión</strong></h1>
-                        </div>
-                        <div class="ps-section__content text-justify">
-                            <p>Productora y comercializadora de tortas y buffet, ofrecemos productos, servicio con garantía de calidad, reflejado en el respeto por nuestros clientes y socio - colaboradores. Garantizamos confiabilidad de los productos que
-                                procesamos y distribuimos, apoyados con una continua asesoría que asegura una productividad y óptimas condiciones de salubridad e higiene en la elaboración de nuestros productos.
-                            </p>
-                        </div>
-
-                        <div class="ps-section__header text-left">
-                            <!--  <div class="ps-section__top">Pasteleria Fina</div> -->
-                            <h1 class="ps-section__title"><strong>Visión</strong></h1>
-                        </div>
-                        <div class="ps-section__content text-justify">
-                            <p>Ser la mejor opción en tortas y buffet, innovando continuamente en diseños y decoraciones, sabores, para satisfacer nuestros objetivos de preferencia, lograr posicionarnos como una empresa moderna e innovadora en el mercado
-                                nacional, con un claro compromiso de mejora continua en toda nuestra actividad.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 ">
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <!-- HTTPS NO PUEDE CARGAR HTTPS -->
-                            <!-- <iframe class="embed-responsive-item" src="https://www.facebook.com/pasteleriafuentedesodarossi/videos/283391452585258/" allowfullscreen></iframe> -->
-                            <!-- <iframe class="embed-responsive-item" src="https://www.youtube.com/channel/UC4-2p0FPpmSRh13OPqga7qAwatch?v=Zuw0wj3hvsE?rel=0&amp;AutoPlay=1" allowfullscreen></iframe> -->
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/channel/UC4-2p0FPpmSRh13OPqga7qAembed/Zuw0wj3hvsE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/TgV-wJFe0Yo?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -368,6 +394,22 @@
     <script type="text/javascript" src="plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <!-- Custom scripts-->
     <script type="text/javascript" src="js/main.js"></script>
+
+    <!-- BEGIN DATATABLE JS-->
+
+    <!--     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.6/b-html5-1.5.6/datatables.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/b-1.5.6/b-html5-1.5.6/datatables.min.js"></script> -->
+    <!-- END DATATABLE JS-->
 </body>
 
 <!-- BEGIN. EVENTOS SCRIPT-->
@@ -377,7 +419,58 @@
         $('#TelefonoEmpresa').html('<a href="tel:945329328">945329328</a>/<a href="tel:949647666">949647666</a>');
         $('#TituloWebEmpresa').html('Pastelería Drossi | Tortas-Postres-Bocaditos-Buffets');
         $('#Contactanos').html('Envianos un correo');
+        listar1();
+        listar2();
     })
+
+
+    function listar1() {
+        $.ajax({
+                //data:  parametros, //datos que se envian a traves de ajax
+                url: 'listado.php?Condicion=6', //archivo que recibe la peticion
+                type: 'post', //método de envio
+                dataType: "html",
+                beforeSend: function() {
+                    $("#resultado").html("Procesando, espere por favor...");
+                },
+                success: function(response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+                    $("#tablaListado1").html(response);
+                }
+            })
+            .done(function() {
+                //console.log("success");
+            })
+            .fail(function() {
+                //console.log('Error');
+            })
+            .always(function() {
+                //console.log("complete");
+            });
+    }
+
+    function listar2() {
+        $.ajax({
+                //data:  parametros, //datos que se envian a traves de ajax
+                url: 'listado.php?Condicion=7', //archivo que recibe la peticion
+                type: 'post', //método de envio
+                dataType: "html",
+                beforeSend: function() {
+                    $("#resultado").html("Procesando, espere por favor...");
+                },
+                success: function(response) { //una vez que el archivo recibe el request lo procesa y lo devuelve
+                    $("#tablaListado2").html(response);
+                }
+            })
+            .done(function() {
+                //console.log("success");
+            })
+            .fail(function() {
+                //console.log('Error');
+            })
+            .always(function() {
+                //console.log("complete");
+            });
+    }
 
     $("#main-subscribe").on("submit", function(e) {
         e.preventDefault();
