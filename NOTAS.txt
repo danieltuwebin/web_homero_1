@@ -38,3 +38,5 @@ CREATE TABLE tblProductoPrecio(
     Precio VARCHAR(100) NOT NULL,
     Tipo INT
 )
+
+-- actualizacion test
