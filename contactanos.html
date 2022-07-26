@@ -44,6 +44,12 @@
     <!--HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!--WARNING: Respond.js doesn't work if you view the page via file://-->
     <!--[if lt IE 9]><script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script><script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+        .img_100px {
+            max-width: 100px;
+        }
+    </style>
+
 </head>
 <!--[if IE 7]><body class="ie7 lt-ie8 lt-ie9 lt-ie10"><![endif]-->
 <!--[if IE 8]><body class="ie8 lt-ie9 lt-ie10"><![endif]-->
@@ -126,7 +132,8 @@
     <div id="back2top"><i class="fa fa-angle-up"></i></div>
 
     <div class="page-wrap">
-        <div class="ps-section--hero"><img src="images/hero/03.jpg" alt="">
+        <div class="ps-section--hero"><img src="images/hero/03_1.jpg" alt="">
+        <!--<div class="ps-section--hero"><img src="images/hero/03.jpg" alt="">-->
             <div class="ps-section__content text-center">
                 <h3 class="ps-section__title">CONTÁCTANOS</h3>
                 <div class="ps-breadcrumb">
@@ -138,17 +145,29 @@
             </div>
         </div>
 
-        <div class="ps-section ps-section--about pt-20 pb-40">
+        <div class="ps-section ps-section--about pt-20">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-19 offset-md-3 col-sm-9 offset-sm-3 col-xs-12 ">
                         <div class="ps-section__header text-center">
                             <!--  <div class="ps-section__top">Pasteleria Fina</div> -->
-                            <h1 class="ps-section__title"><strong>Tortas D’ Rossi al servicio de nuestros
+                            <br><h1 class="ps-section__title"><strong style="font-size: 40px;">Tortas D’ Rossi a tu servicio
                                     clientes</strong></h1>
                         </div>
                         <div class="ps-section__content text-left">
-                            <p>
+                            <div class="col-lg-4 col-md-3" style="text-align: center;">
+                                <h3>Contáctanos</h3>
+                                <img class="img_100px" src="/iconos_web/llamada.png">
+                            </div>
+                            <div class="col-lg-4 col-md-3" style="text-align: center;">
+                                <h3>Redes sociales</h3>
+                                <img class="img_100px" src="/iconos_web/redes-sociales.png">
+                            </div>
+                            <div class="col-lg-4 col-md-3" style="text-align: center;">
+                                <h3>Ubicanos</h3>
+                                <img class="img_100px" src="/iconos_web/marcador-de-posicion.png">
+                            </div>                                                        
+                            <!--<p>
                                 <p>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check label_header"></i>&nbsp;&nbsp;Ponte en contacto con nosotros ingresando tus
                                     datos en el siguiente formulario y te contactaremos.
@@ -159,9 +178,15 @@
                                     <i class="fa fa-check label_header"></i>&nbsp;&nbsp;Ubícanos en el mapa por geolocalización.
                                     <br>
                                 </p>
-                            </p>
-                        </div>
+                            </p>-->
+                        </div>                        
                     </div>
+                    <div class="col-lg-12 col-md-19 offset-md-3 col-sm-9 offset-sm-3 col-xs-12 " style="margin-top: 40px;">
+                        <div class="ps-section__header text-center">
+                            <!--  <div class="ps-section__top">Pasteleria Fina</div> -->
+                            <h1 class="ps-section__title"><strong style="font-size: 35px;">Completa nuestro formulario y te contactaremos</strong></h1>
+                        </div>                       
+                    </div>                    
                 </div>
             </div>
         </div>
@@ -255,18 +280,23 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
                         <div class="ps-widget ps-widget--footer ps-widget--worktime">
                             <div class="ps-widget__header">
-                                <h3 class="ps-widget__title">UBÍCANOS EN NUESTRAS SEDES O COMUNÍCATE A NUESTROS TELÉFONOS
-                                </h3>
-                                <h5 class="clase_color_icono"><i class="fa fa-phone"></i> <a href="tel:945329328">945329328</a>/<a href="tel:949647666">949647666</a></h5>
+                                <h3 class="ps-widget__title">HORARIO DE ATENCIÓN</h3>                                
+                                <h5 class="ps-widget__content">Lunes a Sabado 08:00 a.m. - 09:00 p.m.<br>
+                                 Domingos 07:00 a.m. - 07:00 p.m.</h5>                                
                             </div>
                             <div class="ps-widget__content">
-                                <i class="fa fa-map-marker"></i> <strong>Sede Principal :</strong> Av. Salvador Allende Nro. 1020 Tel <a href="tel:061442663">061-442663</a>
-                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 1:</strong> Jr. Guillermo Sisley Nro. 399 Tel <a href="tel:061443994">061-443994</a>
+                                <i class="fa fa-map-marker"></i> <strong>Sede Principal :</strong> Av. Salvador Allende Nro. 1020
+                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 1:</strong> Jr. Guillermo Sisley Nro. 399
                                 <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 2:</strong> Av. 7 de Junio 309
-                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 3:</strong> Jr. Comandante Barrera / Cll. Libertad MZ.346.LT.13-B
+                                <!--<br> <i class="fa fa-map-marker"></i> <strong>Sucursal 3:</strong> Jr. Comandante Barrera / Cll. Libertad MZ.346.LT.13-B
                                 <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 4:</strong> Jr. Libertad Nro. 605
-                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 5:</strong> Av. Simon Bolivar Nro. 538 MZ.A – LT.06 - Aguaytia
+                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 5:</strong> Av. Simon Bolivar Nro. 538 MZ.A – LT.06 - Aguaytia-->
+                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 3:</strong> Av. Aviacion Mz. 51 Lt. 01
+                                <br> <i class="fa fa-map-marker"></i> <strong>Sucursal 4:</strong> Av. Simon Bolivar Nro. 538 MZ.A – LT.06 - Aguaytia
                             </div>
+                            <br>
+                            <h3 class="ps-widget__title">LLAMANOS</h3>                            
+                            <h5 class="clase_color_icono"><i class="fa fa-phone"></i> <a href="tel:945329328">945329328</a>/<a href="tel:949647666">949647666</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
